@@ -3,8 +3,8 @@ export default function Card({data}) {
   return (
     <div>
       <h2>Información enviada:</h2>
-      <p>Nombre: {data.nombre}</p>
-      <p>Color favorito: {data.color}</p>
+      <p>Hola {data.nombre}!</p>
+      <p>Tu color favorito es el {data.color}</p>
     </div>
   );
 }

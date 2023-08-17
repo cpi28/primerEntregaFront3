@@ -9,9 +9,9 @@ export default function Form(props) {
   function handleSubmit(event) {
     event.preventDefault();
     if (nombre.trim() === "" && nombre.length < 3) {
-      setMensajeError("Debe ingresar un nombre de 3 caracteres por lo menos");
+      setMensajeError("*Debes ingresar un nombre de 3 caracteres por lo menos");
     } else if (color.trim() === "" && color.length < 6) {
-      setMensajeError("Debe ingresar un color de 6 caracteres por lo menos");
+      setMensajeError("*Debes ingresar un color de 6 caracteres por lo menos");
     } else {
       // eslint-disable-next-line react/prop-types
       props.onSubmit({ nombre, color });

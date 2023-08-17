@@ -1,3 +1,7 @@
+body {
+  font-family: "Trirong", serif;
+}
+
 #root {
   max-width: 1280px;
   margin: 0 auto;
@@ -43,6 +47,7 @@
 
 .error{
   color: red;
+  font-weight: bold;
 }
 
 button:hover {
@@ -56,10 +61,21 @@ button:hover {
   border: 1px solid #ccc;
   border-radius: 15px;
   background-color: beige;
+  box-shadow: 2px 2px 8px 4px #d3d3d3d1;
 }
 
 .footer {
   background-color: grey;
   color: white;
   margin: 10px;
+}
+
+.form{
+  background-color: lightblue;
+  padding: 10px;
+  box-shadow: 2px 2px 8px 4px #d3d3d3d1;
+}
+
+h1{
+  text-shadow: 3px 3px 3px #ababab;
 }

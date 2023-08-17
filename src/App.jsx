@@ -21,7 +21,9 @@ function App() {
         </a>
       </div>
       <h1>Formulario React</h1>
-      <Form onSubmit={handleSubmit} />
+      <div className="form">
+        <Form onSubmit={handleSubmit} />
+      </div>
       {submittedData && (
         <div className="submitted-data">
           <Card data={submittedData} />
